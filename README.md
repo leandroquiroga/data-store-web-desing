@@ -1,7 +1,5 @@
 # Frontend Mentor - Fylo data storage component
 
-![Design preview for the Fylo data storage component coding challenge](./public/images/desktop-preview.jpg)
-
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
@@ -89,3 +87,27 @@ We love receiving feedback! We're always looking to improve our challenges and o
 This challenge is completely free. Please share it with anyone who will find it useful for practice.
 
 **Have fun building!** 🚀
+
+#### Objectives
+>
+> - Desktop - [Desktop Version: ](/public/images/desktop-design.jpg)
+> - Mobile  - [Mobile Version: ](/public/images/mobile-desingn.jpg)
+
+#### Work Done: 
+>
+> - Desktop - [Finished -  Desktop Version : ](/public.images/make-desktop.png)
+> - Mobile - [Finished - Mobile Version: ](/public.images/make-mobile.png)
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- Mobile-first workflow
+- Bootstrap
+
+## Author
+
+- Linkedin - [Linkedin](https://www.linkedin.com/in/leanquiroga95/)
+- Frontend Mentor - [Frontend profile](https://www.frontendmentor.io/profile/leandroquiroga)
+- Github - [Github profile](https://github.com/leandroquiroga)
