@@ -90,13 +90,13 @@ This challenge is completely free. Please share it with anyone who will find it 
 
 #### Objectives
 >
-> - Desktop - [Desktop Version: ](/public/images/desktop-design.jpg)
-> - Mobile  - [Mobile Version: ](/public/images/mobile-desingn.jpg)
+> - Desktop - [Desktop Version: ](./public/images/desktop-design.jpg)
+> - Mobile  - [Mobile Version: ](./public/images/mobile-desingn.jpg)
 
 #### Work Done: 
 >
-> - Desktop - [Finished -  Desktop Version : ](/public.images/make-desktop.png)
-> - Mobile - [Finished - Mobile Version: ](/public.images/make-mobile.png)
+> - Desktop - [Finished -  Desktop Version : ](./public.images/make-desktop.png)
+> - Mobile - [Finished - Mobile Version: ](./public.images/make-mobile.png)
 
 ### Built with
 
