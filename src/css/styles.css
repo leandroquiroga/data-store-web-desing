@@ -1,0 +1,194 @@
+/*Google Fonts*/  
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #0c122c  url(/public/images/bg-desktop.png) no-repeat bottom center / 100% 50%;
+    background-attachment: cover;
+    font-family: 'Raleway', sans-serif;
+}
+.container{
+    display: flex;
+    max-width: 1100px;
+}
+
+.container .general{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .general .box{
+    color: #fff;
+    background-color: #1d2c67;
+}
+.container .general .box.one,
+.container .general .box.two{
+    margin: 0 1.5em;
+}
+
+.container .general .box.one{
+    width: 30%;
+    height: 150px;
+    border-radius: 10px;
+    border-top-right-radius: 4.5em;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.container .general .box.one .logo-item{
+    width: 125px;
+}
+.container .general .box.one .logo-item,
+.container .general .box.one .icon-description{
+    margin: 10px 25px;
+}
+
+.container .general .box.one .icon-description{
+    display: flex;
+    flex-direction: row;
+}
+.container .general .box.one .icon-description .icon{
+    width: 2.3em;
+    height: 2.5em;
+}
+.container .general .box.one .icon-description .icon.documnt,
+.container .general .box.one .icon-description .icon.folder,
+.container .general .box.one .icon-description .icon.upload{
+    background-color: #0c122c;
+    padding: .5em;
+    border-radius: .7em;
+    margin-right: .9em;
+}
+
+.container .general .box.two{
+    margin-top: 15px;
+    width: 40%;
+    height: 135px;
+    background-color: #1d2c67;
+    display: flex;
+    border-radius: 10px;
+    justify-content:center ;
+    align-items: center;
+}
+
+.container .general .box.two .box-Progress-Info{
+    width: 85%;
+    line-height: 15px;
+}
+.container .general .box.two .box-Progress-Info .title .text-title{
+    font-size: 14px;
+    margin-bottom: 5px;
+    font-weight: 400;
+}
+.container .general .box.two .box-Progress-Info .title .text-title span{
+    font-weight: 700;
+}
+.container .general .box.two .box-Progress-Info .progress{
+    height: 14px;
+    border-radius: 15px;
+}
+.container .general .box.two .box-Progress-Info .notification{
+    width: 155px;
+    height: 55px;
+    background-color: #fff;
+    border-radius: 15px 15px 0;
+    position: absolute;
+    top: 430px;
+    right: 370px;
+}
+.container .general .box.two .box-Progress-Info .notification::after{
+    content: "";
+    position: absolute;
+    left: 83%;
+    top: 66%;
+    border-bottom: 35px solid transparent;
+    border-right: 26px solid #fff;
+}
+
+.container .general .box.two .box-Progress-Info .notification p{
+    color: #000;
+    font-size: 16px;
+    text-align: center;
+    margin: 15px 0;
+}
+.container .general .box.two .box-Progress-Info .notification p span{
+    font-weight: 700;
+    font-size: 34px;
+}
+.container .general .box.two .box-Progress-Info .notification .button-noti span{
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.container .general .box.two .box-Progress-Info .progress-bar{
+    background: #ffa399;
+    background: linear-gradient(90deg, #ffa399 1%, #ff4d97 100%);
+    width: 75%;
+}
+
+.container .general .box.two .box-Progress-Info .porcentajeBarra{
+    display: flex;
+    justify-content: space-between;
+}
+.container .general .box.two .box-Progress-Info .circle span{
+    left: 74%;
+    top: 50%;
+    border: 1px solid #000;
+    padding: .5em;
+}
+@media only screen 
+    and (max-width: 1000px) {
+
+        .container .general{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 0 25px;
+        }
+        .container .general .box.one,
+        .container .general .box.two{
+            width: 100%;
+        }
+        .container .general .box.two .box-Progress-Info .notification::after {
+            display: none;
+        }
+        .container .general .box.two .box-Progress-Info .notification{
+            position: absolute;
+            top: 550px;
+            right: 460px;
+            border-radius: 10px;
+            margin: 0;
+        }
+}
+
+@media only screen 
+    and (max-width: 375px) {
+    body{
+        background:url(/public/images/bg-mobile.png) no-repeat center center / 100% 100%; 
+        background-attachment: cover;
+    }  
+    .container{
+        margin: auto;
+    }
+    .container .general .box.two .box-Progress-Info .notification{
+        position: absolute;
+        top: 450px;
+        right: 100px;
+        border-radius: 10px;
+        margin: 0;
+    }
+    .container .general .box.two .box-Progress-Info .notification::after{
+        display: none;
+    }
+    .container .general .box.two .box-Progress-Info .notification p span{
+        font-size: 35px;
+    }
+}
