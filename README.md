@@ -90,13 +90,16 @@ This challenge is completely free. Please share it with anyone who will find it 
 
 #### Objectives
 >
-> - Desktop - [Desktop Version: ](./public/images/desktop-design.jpg)
-> - Mobile  - [Mobile Version: ](./public/images/mobile-desingn.jpg)
+> - Desktop - [Desktop Version: ](https://user-images.githubusercontent.com/80013958/124234842-ef7bc300-daea-11eb-94de-85e5d29800a2.jpg)
+> - Mobile  - [Mobile Version: ](https://user-images.githubusercontent.com/80013958/124234809-e68af180-daea-11eb-944c-f9c7b3e54bbe.jpg)
+
 
 #### Work Done: 
 >
-> - Desktop - [Finished -  Desktop Version : ](./public.images/make-desktop.png)
-> - Mobile - [Finished - Mobile Version: ](./public.images/make-mobile.png)
+> - Desktop - [Finished -  Desktop Version : ](https://user-images.githubusercontent.com/80013958/124234560-901db300-daea-11eb-95f8-b0657da2bb03.png)
+> - Mobile - [Finished - Mobile Version: ](https://user-images.githubusercontent.com/80013958/124234627-a9266400-daea-11eb-8f1d-52ee8d87db7e.png)
+
+
 
 ### Built with
 
