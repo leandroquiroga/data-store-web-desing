@@ -27,9 +27,10 @@ Want some support on the challenge? [Join our Slack community](https://www.front
 
 
 #### Work Done: 
->
-> - Desktop - [Finished -  Desktop Version : ](https://user-images.githubusercontent.com/80013958/124234560-901db300-daea-11eb-95f8-b0657da2bb03.png)
-> - Mobile - [Finished - Mobile Version: ](https://user-images.githubusercontent.com/80013958/124234627-a9266400-daea-11eb-8f1d-52ee8d87db7e.png)
+> ![Desktop](https://user-images.githubusercontent.com/80013958/124341825-9fa60600-db95-11eb-893b-0780b6c8aae1.png)
+
+> ![Mobile](https://user-images.githubusercontent.com/80013958/124341837-b3516c80-db95-11eb-964c-cf4b4586255a.png)
+
 
 
 
